@@ -1,0 +1,6 @@
+# -Dspring.profiles.active=debug
+spring:
+  main:
+    banner-mode: 'off'
+  thymeleaf:
+    cache: false
