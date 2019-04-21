@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<base href="./" th:href="@{/}"/>
 <title>vertically scrolling shooter</title>
+<link rel="stylesheet" href="css/default.css"/>
 <script type="text/javascript" src="js/main-min.js"></script>
 </head>
 
 <body>
-OK.
+  <div id="view" data-role="content">
+    <canvas id="canvas"></canvas>
+  </div>
 </body>
 </html>
